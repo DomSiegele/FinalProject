@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 st.title("Excel Data Visualization App")
 
 # File uploader for Excel
-uploaded_file = st.file_uploader("Upload Excel File", type=["xlsx"])
+uploaded_file = st.file_uploader("Water_Data_Clean", type=["xlsx"])
 
 if uploaded_file is not None:
     # Read the Excel file
